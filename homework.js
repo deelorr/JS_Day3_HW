@@ -24,7 +24,7 @@ console.log(card);
 
 const capitalize = (str) => {
   return str.charAt(0).toUpperCase() + str.slice(1);
-};
+}; // looked up how to capitalize first letter of a string //
 
 const addPoke = (data) => {
   console.log(data.sprites.front_default);
