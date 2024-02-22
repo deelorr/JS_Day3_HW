@@ -1,0 +1,57 @@
+html {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(119, 115, 115);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(119, 115, 115);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border: 10px solid rgb(214, 180, 87);
+    border-radius: 7px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: rgb(230, 230, 230);
+}
+
+.name {
+    margin: 5px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.HP {
+    margin: 7px 0px 0px 0px;
+    font-size: small;
+}
+
+.abil-head {
+    margin: 5px;
+    font-weight: bold;
+}
+
+.abilities {
+    margin: 5px;
+}
+
+.pokemon-image {
+    border: 1px solid rgb(122, 121, 40);
+    border-radius: 7px;
+    padding: 0px 30px;
+    background-color: rgb(243, 242, 242);
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
